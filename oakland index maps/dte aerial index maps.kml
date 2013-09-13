@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Folder>
+	<name>dte aerial index maps</name>
+	<GroundOverlay>
+		<name>49 Image Overlay</name>
+		<color>9cffffff</color>
+		<Icon>
+			<href>oakland49Index.jpg</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>42.91848020973045</north>
+			<south>42.40307353195587</south>
+			<east>-82.84217649759918</east>
+			<west>-83.73902832265662</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>52 Image Overlay</name>
+		<color>b0ffffff</color>
+		<Icon>
+			<href>Oakland52Index.jpg</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>42.99034313030688</north>
+			<south>42.40873259911378</south>
+			<east>-83.06752653594997</east>
+			<west>-83.71884656199346</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>56 Image Overlay</name>
+		<color>9cffffff</color>
+		<Icon>
+			<href>oakland56index.jpg</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>42.93854058459234</north>
+			<south>42.42724407201618</south>
+			<east>-82.83331126529578</east>
+			<west>-83.71610494360417</west>
+		</LatLonBox>
+	</GroundOverlay>
+	<GroundOverlay>
+		<name>67 Image Overlay</name>
+		<color>b3ffffff</color>
+		<Icon>
+			<href>Oakland67Index.jpg</href>
+			<viewBoundScale>0.75</viewBoundScale>
+		</Icon>
+		<LatLonBox>
+			<north>43.04473021672991</north>
+			<south>42.38389286281346</south>
+			<east>-83.06802889276418</east>
+			<west>-83.73065249993562</west>
+		</LatLonBox>
+	</GroundOverlay>
+</Folder>
+</kml>
