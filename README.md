@@ -18,18 +18,19 @@ please note some code is in a rough state and unpolished
 
 
 ##instrictions and workflow
-open desired county and year: e.g. "macomb index maps/1961aerialphotos.kml"
+Open desired county and year: e.g. "macomb index maps/1961aerialphotos.kml"
 
-it will show an array of place marks in google earth
+It will show an array of place marks in google earth
 
-the names can be used in "img overlay.py"
+The names can be used in "img overlay.py"
 
 "img overlay.py" is a command line program. all you have to do is enter the county, year, name and choose a folder for the files to be saved.
 
-then open the .kml file in google earth
+Then open the .kml file in google earth
 
-go to "get info"
+Go to "get info"
 
-manualy adjust the edges so it lines up
+Manualy adjust the edges so it lines up
 
+Save it to keep your changes
 
