@@ -3,7 +3,7 @@ import time
 
 def download_pdf_to_jpg(county, name, year):
     pdf = urllib2.urlopen("http://www.clas.wayne.edu/photos/part1/" + county + "/" + year + "/" + name + ".pdf")
-    print "downloading", name
+    print "downloading", name, "..."
     t1 = time.time()
     pdfimg = pdf.read()
     pdf.close()
@@ -11,22 +11,21 @@ def download_pdf_to_jpg(county, name, year):
     streams = pdfimg.split("stream")
 
     for s in streams:
-        print len(s)
         if len(s) > 100000:
             jpeg = s[2:-5]
         else:pass
 
-    jpegfile = open("photographs/" + name + ".jpg", "wb")
+    jpegfile = open(name + ".jpg", "wb")
     jpegfile.write(jpeg)
     jpegfile.close()
 
     t2 = time.time()
-    print t2 - t1
+    #print t2 - t1
     print "done"
 
 county = raw_input("county: ")
-name = raw_input("name: ")
 year = raw_input("year: ")
+name = raw_input("name: ")
 download_pdf_to_jpg(county, name, year)
 
 countydir = county + " index maps/"
@@ -56,8 +55,8 @@ kmlf = open("overlay_template.txt", "r")
 template = kmlf.read()
 kmlf.close()
 
-overlaykml = template % (name + "overlay", location[1], location[0], "../photographs/"+ name + ".jpg", north, south, east, west)
+overlaykml = template % (name + "overlay", location[1], location[0], name + ".jpg", north, south, east, west)
 
-file = open("kml overlays/" + name + "overlay.kml", "w")
+file = open(name + "overlay.kml", "w")
 file.write(overlaykml)
 file.close()
