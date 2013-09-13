@@ -9,11 +9,6 @@ original source of maps and images hosted by Wayne State University: http://www.
 
 ######The index maps and "img overlay.py" can be used with out knowledge of programming.
 
-automatic georeferencing is only approximate, manual adjustment is necessary.
-
-please note some code is in a rough state and unpolished
-
-
 ##instructions and workflow
 Open desired county and year: e.g. "macomb index maps/1961aerialphotos.kml"
 
@@ -31,3 +26,9 @@ Manualy adjust the edges so it lines up
 
 Save it to keep your changes
 
+##other things to know about this software
+automatic georeferencing is only approximate, manual adjustment is necessary.
+
+It does not orthorectify the images. this means distortion will appear on hills and the image will not line up perfectly with modern imagery
+
+please note some code is in a rough state and unpolished
