@@ -22,7 +22,7 @@ Open desired county and year: e.g. "macomb index maps/1961aerialphotos.kml"
 
 It will show an array of place marks in google earth
 
-The names can be used in "img overlay.py"
+The names can be used in "img overlay.py", or go to the url in the description (it is recommended that you copy it into a browser rather than click it)
 
 "img overlay.py" is a command line program. all you have to do is enter the county, year, name and choose a folder for the files to be saved.
 
