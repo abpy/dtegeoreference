@@ -1,16 +1,17 @@
 dtegeoreference
 ===============
 
-This software provides a way to browse, download, and view aerial photographs of the Detroit area in GoogleEarth.
+This software provides a way to browse, download, and view the DTE Aerial Photo Collection in GoogleEarth.
+
+The DTE Aerial Photo Collection consists of aerial photographs of the Detroit area from 1949 to 1997
+
+original source of maps and images hosted by Wayne State University: http://www.clas.wayne.edu/photos/ap_index.htm
 
 ######The index maps and "img overlay.py" can be used with out knowledge of programming.
-it can only be used for counties that have allready been georeferenced (macomb, oakland)
 
 automatic georeferencing is only approximate, manual adjustment is necessary.
 
 please note some code is in a rough state and unpolished
-
-original Wayne State University source of maps and images: http://www.clas.wayne.edu/photos/ap_index.htm
 
 
 ##instructions and workflow
