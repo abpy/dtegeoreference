@@ -5,7 +5,7 @@ dtegeoreference
 
 original wayne state university source of maps and images: http://www.clas.wayne.edu/photos/ap_index.htm
 
-######"img overlay.py" can be used with out knowledge of programming.
+######"img overlay.py" and the index maps can be used with out knowledge of programming.
 it can only be used for counties that have allready been georeferenced (macomb, oakland)
 
 This program is meant to be used with GoogleEarth
