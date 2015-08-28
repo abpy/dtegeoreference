@@ -9,7 +9,7 @@ The DTE Aerial Photo Collection consists of aerial photographs of the Detroit ar
 
 original source of maps and images hosted by Wayne State University: http://claslinux.clas.wayne.edu/photos/ap_index.htm
 
-##instructions and workflow
+##instructions and usage
 Open desired county and year: e.g. "macomb index maps/1961aerialphotos.kml"
 
 The place mark names names can be used in "img overlay.py", or go to the url in the description (it is recommended that you copy it into a browser rather than click it)
@@ -24,5 +24,3 @@ it will write a kml file and a jpeg image for the image overlay
 
 ##other things to know about this software
 automatic georeferencing is only approximate, manual adjustment is necessary.
-
-It does not orthorectify the images. this means distortion will appear on hills and the image will not line up perfectly with modern imagery
